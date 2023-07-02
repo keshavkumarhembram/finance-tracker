@@ -1,0 +1,28 @@
+.transaction {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between ;
+}
+
+.transaction h3 {
+    width: 200px;
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #001524;
+}
+
+.transaction-type-expense {
+    color: #f44336;
+    
+}
+
+.transaction-type-income {
+    color: #4caf50;
+}
+
+@media screen and (max-width: 400px){
+    .transaction h3 {
+        width: 140px;
+    }
+}

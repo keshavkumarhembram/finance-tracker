@@ -1,0 +1,80 @@
+label {
+    color: black;
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.input {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input input {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    
+}
+
+.input select {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+}
+
+.button {
+    width: 45%;
+    height: 3rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color : white;
+    margin-bottom: 1rem;
+    background-color: #5e17eb;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.button:hover {
+    background-color: #4d0fcb;
+}
+
+.input input:focus {
+    outline: none;
+    border-color: #5e17eb;
+}
+
+.input select:focus {
+    outline: none;
+    border-color: #5e17eb;
+}
+
+option {
+    color: black;
+    background-color: #dbcdf8;
+    border-color: #4d0fcb;
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 400px) {
+    .row {
+        flex-direction: column;
+    }
+    .input {
+        width: 100%;
+    }
+    .button {
+        width: 100%;
+    }
+}

@@ -1,0 +1,23 @@
+.header-balance {
+    margin-right: 2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: .5rem;
+    align-items: center;
+    padding: 0 1rem;
+    height: 3rem;
+    background-color: #8c52ff;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.header-balance__title {
+    color: #d9d9d9;
+}
+
+.header-balance__amount {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
