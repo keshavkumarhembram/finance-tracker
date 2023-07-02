@@ -74,6 +74,9 @@ option {
     .input {
         width: 100%;
     }
+    input[type="date"]{
+        width: 95%;
+    }
     .button {
         width: 100%;
     }
