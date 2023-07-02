@@ -34,7 +34,7 @@ function App() {
     event.preventDefault();
     const transactionsJSON = localStorage.getItem('transactions');
     let transactions = [];
-    if(transactionsJSON !== '') {
+    if(transactionsJSON) {
       transactions = JSON.parse(transactionsJSON);
     }
     const form = event.target;
